@@ -10,6 +10,10 @@ using System.Web.Http;
 
 namespace App.Services.WebApi.Controllers
 {
+    /// <summary>
+    /// Api para realizar distintas acciones en una tarea como
+    /// consultar,crear,actualizar y borrrar
+    /// </summary>
     [Authorize]
     [RoutePrefix("tareas")]
     public class TareaController: ApiController
@@ -20,6 +24,17 @@ namespace App.Services.WebApi.Controllers
             this.tareaService = tareaService;
         }
 
+        /// <summary>
+        /// Permite consultar tareas
+        /// Consultar todas las tareas (incluidas las de otros usuarios)
+        /// Consultar solo mis tareas(las de usuario autenticado)
+        /// Consultar solo tareas finalizadas, solo las que están pendientes o todas sin importar su
+        /// estado de finalización.
+        /// Ordenar la consultar por fecha de vencimiento.
+        /// Combinar la anteriores.
+        /// </summary>
+        /// <param name="request">Lista de tareas</param>
+        /// <returns></returns>
         [HttpGet]
         [Route("consultar")]
         public TareaGetAllResponse Get([FromUri] TareaGetAllRequest request)
