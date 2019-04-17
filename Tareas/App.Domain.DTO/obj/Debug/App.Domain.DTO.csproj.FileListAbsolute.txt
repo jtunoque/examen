@@ -1,0 +1,11 @@
+D:\Personal\examenes\Tareas\App.Domain.DTO\bin\Debug\App.Domain.DTO.dll
+D:\Personal\examenes\Tareas\App.Domain.DTO\bin\Debug\App.Domain.DTO.pdb
+D:\Personal\examenes\Tareas\App.Domain.DTO\bin\Debug\App.Entities.Base.dll
+D:\Personal\examenes\Tareas\App.Domain.DTO\bin\Debug\App.Entities.Queries.dll
+D:\Personal\examenes\Tareas\App.Domain.DTO\bin\Debug\App.Entities.Base.pdb
+D:\Personal\examenes\Tareas\App.Domain.DTO\bin\Debug\App.Entities.Queries.pdb
+D:\Personal\examenes\Tareas\App.Domain.DTO\obj\Debug\App.Domain.DTO.csprojAssemblyReference.cache
+D:\Personal\examenes\Tareas\App.Domain.DTO\obj\Debug\App.Domain.DTO.csproj.CoreCompileInputs.cache
+D:\Personal\examenes\Tareas\App.Domain.DTO\obj\Debug\App.Domain.DTO.csproj.CopyComplete
+D:\Personal\examenes\Tareas\App.Domain.DTO\obj\Debug\App.Domain.DTO.dll
+D:\Personal\examenes\Tareas\App.Domain.DTO\obj\Debug\App.Domain.DTO.pdb
